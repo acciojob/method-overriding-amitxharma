@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args)
     {
         B obj =new B();
-        System.out.println(obj.meth());
+        String result1 = obj.meth();
+        String result2 = ((A)obj).meth();
     }
 }
